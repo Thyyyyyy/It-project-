@@ -45,6 +45,7 @@ p {
 	text-decoration: none;
 }
 
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *
 {
@@ -109,7 +110,7 @@ header .logo
   right: 300px;
 }
 
-.showcase img
+.showcase video
 {
   position: absolute;
   top: 0;
@@ -126,7 +127,7 @@ header .logo
   left: 0;
   width: 100%;
   height: 100%;
-  background: #03a9f4;
+  background: #525e63;
   mix-blend-mode: overlay;
 }
 .text
@@ -202,6 +203,7 @@ header .logo
 {
   transform: scale(0.5) translateY(-15px);
 }
+
 .menu
 {
   position: absolute;
@@ -211,7 +213,7 @@ header .logo
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .menu ul
 {
@@ -229,8 +231,9 @@ header .logo
 }
 .menu ul li a:hover
 {
-  color: #03a9f4; 
+  color: #374044; 
 }
+
 
 @media (max-width: 991px)
 {
