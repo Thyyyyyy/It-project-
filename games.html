@@ -34,9 +34,9 @@
     </header>
     <!--The videos-->
     <section class="home">
-      <video class="video-slide active" src="/Images Folder/VALOREANT.mp4" autoplay muted loop></video>
-      <video class="video-slide" src="/Images Folder/LEG OF LEGS.mp4" autoplay muted loop></video>
-      <video class="video-slide" src="/Images Folder/RIOTGAMES.mp4" autoplay muted loop></video>
+      <img class="image-slide active" src="https://i.postimg.cc/bY6hnYzz/VALOREANT.gif">
+      <img class="image-slide" src="https://i.postimg.cc/zBCPk7Zm/League.gif" >      
+      <img class="image-slide" src="https://i.postimg.cc/XJv9tPfw/RIOTGAMES.gif">
       <!--The title and Introduction for the games-->
       <!--Valorant-->
       <div class="content active">
@@ -80,9 +80,9 @@
       navigation.classList.toggle("active");
     });
 
-    //Javacript for video slider navigation
+    //Javacript for image slider navigation
     const btns = document.querySelectorAll(".nav-btn");
-    const slides = document.querySelectorAll(".video-slide");
+    const slides = document.querySelectorAll(".image-slide");
     const contents = document.querySelectorAll(".content");
 
     var sliderNav = function(manual){
